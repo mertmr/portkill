@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "description": "A command-line tool to kill processes running on a specific port.",
+    "homepage": "https://github.com/mertmr/portkill",
+    "license": "MIT",
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/mertmr/portkill/releases/download/v0.1.1/portkill_Windows_x86_64.zip",
+        "hash": "D7EA26548ABFA4AD227FC986B6C912ABFA628AA66F1301CBAEEC39D8E4C679BE"
+      }
+    },
+    "bin": "portkill.exe"
+  }
