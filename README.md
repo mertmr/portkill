@@ -10,10 +10,15 @@ PortKiller is a command-line application designed to kill a process running on a
 
 ## Installation
 
-PortKiller can be installed via pip:
+PortKiller can be installed via releases:
 
-```bash
-pip install portkiller
+https://github.com/mertmr/portkill/releases/
+
+With scoop
+
+```
+scoop bucket add scoop https://github.com/mertmr/scoop
+scoop install scoop/portkill
 ```
 
 ## Usage
@@ -34,16 +39,6 @@ To kill the process running on port 3000:
 portkiller 3000
 ```
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to PortKiller, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/improvement`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/improvement`).
-6. Create a new Pull Request.
 
 ## License
 
