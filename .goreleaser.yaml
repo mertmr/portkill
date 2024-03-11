@@ -51,3 +51,14 @@ release:
   github:
     owner: mertmr
     name: portkill
+
+brews:
+  - homepage: https://github.com/mertmr/portkill
+    description: "PortKiller is a command-line application designed to kill a process running on a specified port"
+    tap:
+        owner: vektra
+        name: homebrew-tap
+        token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+    folder: Formula
+    test: |
+        system "#{bin}mockery --version"
