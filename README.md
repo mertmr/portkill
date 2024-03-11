@@ -14,7 +14,7 @@ PortKill can be installed via releases:
 
 https://github.com/mertmr/portkill/releases/
 
-With scoop
+For Windows - with scoop
 
 ```
 scoop bucket add scoop https://github.com/mertmr/scoop
