@@ -1,6 +1,6 @@
-# PortKiller
+# PortKill
 
-PortKiller is a command-line application designed to kill a process running on a specified port. It provides a convenient way to free up a port that may be occupied by an application.
+PortKill is a command-line application designed to kill a process running on a specified port. It provides a convenient way to free up a port that may be occupied by an application.
 
 ## Features
 
@@ -10,7 +10,7 @@ PortKiller is a command-line application designed to kill a process running on a
 
 ## Installation
 
-PortKiller can be installed via releases:
+PortKill can be installed via releases:
 
 https://github.com/mertmr/portkill/releases/
 
@@ -23,10 +23,10 @@ scoop install scoop/portkill
 
 ## Usage
 
-To use PortKiller, simply execute it from the command line with the desired port number:
+To use PortKill, simply execute it from the command line with the desired port number:
 
 ```bash
-portkiller <port_number>
+portkill <port_number>
 ```
 
 Replace `<port_number>` with the port you want to free up.
@@ -36,13 +36,13 @@ Replace `<port_number>` with the port you want to free up.
 To kill the process running on port 3000:
 
 ```bash
-portkiller 3000
+portkill 3000
 ```
 
 
 ## License
 
-PortKiller is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+PortKill is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Disclaimer
 
